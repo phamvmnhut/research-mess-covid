@@ -177,7 +177,7 @@ export default class App extends Component {
                                                         Confirmed
                                                         </div>
                                                         <div className="col-12 responsive-font-sizes">
-                                                            {vietnamCovid.Confirmed}
+                                                            {this.vietnamCovid.Confirmed}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -194,7 +194,7 @@ export default class App extends Component {
                                                             Deaths
                                                         </div>
                                                         <div className="col-12 responsive-font-sizes">
-                                                            {vietnamCovid.Deaths}
+                                                            {this.vietnamCovid.Deaths}
                                                         </div>
                                                     </div>
                                                 </div>
@@ -211,7 +211,7 @@ export default class App extends Component {
                                                         Recovered
                                                     </div>
                                                         <div className="col-12 responsive-font-sizes">
-                                                            {vietnamCovid.Recovered}
+                                                            {this.vietnamCovid.Recovered}
                                                     </div>
                                                     </div>
                                                 </div>
@@ -228,7 +228,7 @@ export default class App extends Component {
                                                         Active
                                                     </div>
                                                         <div className="col-12 responsive-font-sizes">
-                                                            {vietnamCovid.Active}
+                                                            {this.vietnamCovid.Active}
                                                     </div>
                                                     </div>
                                                 </div>
