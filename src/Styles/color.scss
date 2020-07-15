@@ -2,23 +2,39 @@ div {
     color: white;
 }
 .text-title {
-    color :#4D31FA;
+    color: #4d31fa;
 }
 .btn-bg {
-    background-color: #2F3447;
+    background-color: #2f3447;
 }
 .layer-bg {
-    background-color: #2F3447;
+    background-color: #2f3447;
 }
 .ic-active {
-    color : #795EF1
+    color: #795ef1;
 }
 .ic-deaths {
-    color: #F55A3B;
+    color: #f55a3b;
 }
 .ic-confirmed {
-    color: #FF9113;
+    color: #ff9113;
 }
 .ic-recovered {
-    color: #3BDD9D;
+    color: #3bdd9d;
+}
+.text_confirmed {
+    color: #ff9113;
+    font-weight: bolder;
+}
+.text_deaths {
+    color: #f55a3b;
+    font-weight: bolder;
+}
+.text_active {
+    color: #795ef1;
+    font-weight: bolder;
+}
+.text_recovered {
+    color: #3bdd9d;
+    font-weight: bolder;
 }
