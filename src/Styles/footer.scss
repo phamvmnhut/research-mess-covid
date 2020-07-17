@@ -40,6 +40,28 @@
                     font-weight: 400;
                 }
             }
+            .footer__bot--right {
+                display: flex;
+                justify-content: end;
+                align-items: flex-end;
+                align-self: center;
+                color: #502181;
+                font-size: 13px;
+                font-weight: 400;
+                text-align: center;
+                h6 {
+                    font-size: 1.2rem;
+                    color: #502181;
+                    a {
+                        font-size: 2rem;
+                        text-decoration: none;
+                        color: #502181;
+                        &:hover{
+                            font-weight: bolder;
+                        }
+                    }
+                }  
+            }
         }
     }
 }

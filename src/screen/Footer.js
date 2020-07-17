@@ -11,12 +11,12 @@ export default class Footer extends Component {
                                 <li className="fotter__list-item">
                                     <a className="footer__text-bold" href="">
                                         Thành viên:
-                      </a>
+                                    </a>
                                 </li>
                                 <li className="fotter__list-item">
                                     <a className="footer__text-bold" href="">
                                         Nguyễn Vinh Hải
-                          </a>
+                                </a>
                                 </li>
                                 <li className="fotter__list-item">
                                     <a className="text-normal" href="">
@@ -62,8 +62,16 @@ export default class Footer extends Component {
                         </div>
                         <div className="footer_bot row">
                             <div className=" footer__bot--left col-md-6 col-sm-12 ">
-                                <img className="footer_img" src="./gcallupdate.png" alt />
+                                <img className="footer_img" src="./gcallupdate.png" alt="" />
                                 <span className="Copyright">TeamGcalls©2020 gmail.Intern</span>
+                            </div>
+                            <div className=" footer__bot--right col-md-6 col-sm-12 ">
+                                
+                                    <h6>HOTLINE &nbsp; &nbsp;
+                                        <a href="https://callgcovid.tk" target="_blank">
+                                            034.235.0466
+                                            </a>
+                                            </h6>
                             </div>
 
                         </div>

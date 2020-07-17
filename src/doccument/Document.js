@@ -74,7 +74,7 @@ export default class Document extends Component {
                 <span className="na">src=</span>
                 <span className="s">"https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"</span>
                 <span className="nt">&gt;</span>
-                <span className="nt">&lt;/script </span>
+                <span className="nt">&lt;/script</span>
                 <span className="nt">&gt;</span>{"\n"}
                 {"       "}
                 <span className="nt">&lt;/head&gt;</span>{"\n"}
@@ -91,7 +91,7 @@ export default class Document extends Component {
                 <span className="na">src=</span>
                 <span className="s">"https://gcovid.tk/static/index.js"</span>
                 <span className="nt">&gt;</span>
-                <span className="nt">&lt;/script </span>
+                <span className="nt">&lt;/script</span>
                 <span className="nt">&gt;</span>{"\n"}
                 {"       "}
                 <span className="nt">&lt;/body&gt;</span>{"\n"}

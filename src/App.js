@@ -157,7 +157,6 @@ export default class App extends Component {
   }
   render() {
     return (
-
       <div className="row MyApp">
         {/* tiêu đề to bự */}
         <div className="col-12">
@@ -374,9 +373,9 @@ export default class App extends Component {
           </div>
         </div>
         <div className="col-12 divide_" />
-      </div>
+      
       <Footer />
-      </>
+      </div>
     );
   }
 }
