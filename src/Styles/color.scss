@@ -24,17 +24,34 @@ div {
 }
 .text_confirmed {
     color: #ff9113;
-    font-weight: bolder;
+    font-weight: 900;
+    margin-left: 15px;
 }
 .text_deaths {
     color: #f55a3b;
-    font-weight: bolder;
+    font-weight: 900;
 }
 .text_active {
     color: #795ef1;
-    font-weight: bolder;
+    font-weight: 900;
 }
 .text_recovered {
     color: #3bdd9d;
-    font-weight: bolder;
+    font-weight: 900;
+}
+.num_confirmed {
+    font-weight: 900;
+    font-size: 24px;
+}
+.num_deaths {
+    font-weight: 900;
+    font-size: 24px;
+}
+.num_active {
+    font-weight: 900;
+    font-size: 24px;
+}
+.num_recovered {
+    font-weight: 900;
+    font-size: 24px;
 }

@@ -1,9 +1,61 @@
 @import "./color.scss";
 @import "./base.scss";
-.MyApp {
-    background-color: #292D3E;
+@import "./footer.scss";
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
-.row {
-    margin-left: 0px !important;
-    margin-right: 0px !important;
+.MyApp {
+    background-color: #0f1631;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+.flippath {
+    clip-path: polygon(0 0, 52% 0, 100% 14%, 100% 100%, 0 100%);
+    padding: 40px;
+}
+.text-red {
+    color: #b7161b;
+    font-size: 30px;
+}
+.note_1 {
+    text-align: center;
+    font-style: italic;
+}
+.imgCorona {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.cov1 {
+    position: absolute;
+    top: 220px;
+    left: 250px;
+    width: 300px;
+    height: 300px;
+}
+.cov2 {
+    position: absolute;
+    bottom: -180px;
+    right: 120px;
+    width: 70px;
+    height: 70px;
+}
+.cov3 {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 170px;
+    height: 170px;
+}
+.cov4 {
+    position: absolute;
+    bottom: -350px;
+    left: 90px;
+    width: 70px;
+    height: 70px;
 }
